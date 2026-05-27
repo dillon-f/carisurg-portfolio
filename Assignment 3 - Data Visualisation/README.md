@@ -1,4 +1,4 @@
-# PROjECT OVERVIEW:
+# PROJECT OVERVIEW:
 
 This assignment focuses on visualising the cleaned emergency triage dataset to answer a specific clinical question. Two plots are generated:
 
