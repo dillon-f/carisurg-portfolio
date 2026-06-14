@@ -1,0 +1,55 @@
+# Ignore environment and secret files
+.env
+*.env
+.env.*
+
+# Ignore local Python environments
+venv/
+ENV/
+.venv/
+
+# Ignore raw data and patient datasets
+/Data/raw/
+/data/raw/
+data/raw/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Model weights and serialized models
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+
+# Large media and binary files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# Logs
+.log
+
+# VSCode workspace
+.vscode/
+
+# Ignore output folders
+outputs/
+results/
+
+# NOTE: keep this file under version control; do NOT commit secrets or raw patient data.
